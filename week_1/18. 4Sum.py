@@ -1,4 +1,5 @@
 # Created by young at 8/26/2018
+##time: n^k-1
 def fourSum(self, nums, target):
     def findNsum(nums, target, N, result, results):
         if len(nums) < N or N < 2 or target < nums[0]*N or target > nums[-1]*N:  # early termination
